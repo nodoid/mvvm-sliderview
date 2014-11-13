@@ -12,7 +12,7 @@
         android:id="@+id/textTitle"
         android:gravity="center_horizontal" />
     <Button
-        android:text="Next"
+        android:text="Back"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/btnNext"
