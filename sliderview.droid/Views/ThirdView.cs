@@ -12,11 +12,10 @@ namespace sliderview.droid.Views
         protected override void OnCreate(Bundle bundle)
         {
             base.OnCreate(bundle);
-            SetContentView(Resource.Layout.First);
+            SetContentView(Resource.Layout.Third);
             var btnNext = FindViewById<Button>(Resource.Id.btnNext);
             var txtTitle = FindViewById<TextView>(Resource.Id.textTitle);
             txtTitle.Text = "Third activity";
-            btnNext.Text = "Back";
             btnNext.Click += delegate
             {
                 OverridePendingTransition(Resource.Animation.slide_out_left, Resource.Animation.slide_in_right);
