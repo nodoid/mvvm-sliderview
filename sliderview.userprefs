@@ -1,0 +1,3 @@
+﻿<Properties StartupItem="sliderview.droid/sliderview.droid.csproj">
+  <MonoDevelop.Ide.ItemProperties.sliderview.droid MonoForAntroid.PreferredDevice="Nexus 4" />
+</Properties>
